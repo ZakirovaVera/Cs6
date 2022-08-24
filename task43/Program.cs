@@ -30,7 +30,7 @@ void LineIntersection(double B1, double K1, double B2, double K2)
     if (K1 == K2 && B1 != B2)
         Console.WriteLine("Заданные прямые не пересекаются, параллельны!");
     else if (K1 == K2 && B1 == B2)
-        Console.WriteLine("Заданные прямые в идентичны");
+        Console.WriteLine("Заданные прямые идентичны");
     else
         Console.WriteLine($"b1 = {B1}, k1 = {K1}, " + 
         $"b2 = {B2}, k2 = {K2} -> ({coordinatesX}; {coordinatesY})");
