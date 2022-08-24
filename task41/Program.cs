@@ -5,7 +5,7 @@
 
 Console.Clear();
 
-int sizeArray = GetNumberFromUser("Введите длину массива: ", "Ошибка ввода!");
+int sizeArray = GetNumberFromUser("Введите количество чисел: ", "Ошибка ввода!");
 int[] arrayNum = GetArray(sizeArray);
 int countNumGreaterZero = GetCountOfNumbersGreaterThanZero(arrayNum);
 Console.WriteLine($"[{String.Join(", ", arrayNum)}] -> {countNumGreaterZero}");
